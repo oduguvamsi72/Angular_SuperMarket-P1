@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { CarouselComponent } from './carousel/carousel.component';
 import { CardsComponent } from './cards/cards.component';
 
 @NgModule({
@@ -13,7 +12,6 @@ import { CardsComponent } from './cards/cards.component';
     AppComponent,
     WelcomeComponent,
     NavbarComponent,
-    CarouselComponent,
     CardsComponent
   ],
   imports: [
