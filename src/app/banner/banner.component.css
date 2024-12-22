@@ -1,3 +1,4 @@
 .banner{
-    background-image: radial-gradient(ur=("../../"));
+    background-image:url(marketbanner.png);
+    background-size: cover;
 }
