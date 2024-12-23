@@ -43,4 +43,9 @@ header{
     font-size: 1.1em;
     font-weight: 500;
     margin-left: 40px;
+    transition: .5s;
+}
+.navigation .btnLogin-popup:hover{
+    background-color: #fff;
+    color: #162938;
 }
