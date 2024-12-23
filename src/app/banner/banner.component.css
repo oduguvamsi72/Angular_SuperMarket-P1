@@ -1,7 +1,10 @@
-.banner{
-    background-image:url(marketbanner.png);
-    background-size: cover;
-    background-position: center;
+.banner {
+    background-image: url("store.jpeg");
     background-repeat: no-repeat;
-    margin-top: 10%;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    margin-top: 15%;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
