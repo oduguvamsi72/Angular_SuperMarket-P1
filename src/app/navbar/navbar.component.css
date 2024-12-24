@@ -71,3 +71,35 @@ header {
     background-color: #fff;
     color: #162938;
 }
+/* ------dropdown----- */
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color:black;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    border-radius: 5px;
+    padding: 10px 0;
+  }
+  
+  .dropdown-menu a {
+    color:white;
+    text-decoration: none;
+    display: block;
+    padding: 8px 16px;
+  }
+  
+  .dropdown-menu a:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .dropdown:hover .dropdown-menu {
+    display: block;
+  }
+  
