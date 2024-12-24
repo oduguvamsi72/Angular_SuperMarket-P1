@@ -13,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     padding: 15px 100px;
-    background-color: rgb(240, 11, 11);
+    background-color: tomato;
     display: flex;
     justify-content: space-between;
     align-items: center;
