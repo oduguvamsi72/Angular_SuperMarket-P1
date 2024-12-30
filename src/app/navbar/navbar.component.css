@@ -13,7 +13,7 @@ header {
     left: 0;
     width: 100%;
     padding: 15px 100px;
-    background-color: tomato;
+    background-color:transparent;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -22,7 +22,7 @@ header {
 
 .logo {
     font-size: 2em;
-    color: whitesmoke;
+    color: black;
     user-select: none;
     cursor: pointer;
 }
@@ -30,7 +30,7 @@ header {
 .navigation a {
     position: relative;
     font-size: 1.1em;
-    color: aliceblue;
+    color: black;
     font-weight: 500;
     margin-left: 40px;
     text-decoration: none;
@@ -43,7 +43,7 @@ header {
     position: absolute;
     width: 100%;
     height: 3px;
-    background: #fff;
+    background:black;
     border-radius: 5px;
     transform: scaleX(0);
     transition: transform .5s;
@@ -56,9 +56,11 @@ header {
     width: 70px;
     height: 30px;
     background: transparent;
-    border: 2px solid #fff;
+    border: 2px solid black;
+    border: none;
     outline: none;
-    color: #fff;
+    color:black;
+    background-color :rgb(178, 250, 226);
     border-radius: 6px;
     cursor: pointer;
     font-size: 1.1em;
@@ -68,7 +70,7 @@ header {
 }
 
 .navigation .btnLogin-popup:hover {
-    background-color: #fff;
+    background-color :rgb(81, 254, 196);
     color: #162938;
 }
 /* ------dropdown----- */
